@@ -16,7 +16,7 @@ setuptools.setup(
     url="https://github.com/wallento/riscv-cocotb",
     packages=setuptools.find_packages(),
     install_requires=[
-        'riscv-model',
+        'cocotb', 'riscv-model',
     ],
     setup_requires=[
         'setuptools_scm',
